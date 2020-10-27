@@ -1,0 +1,17 @@
+1)If an employee has workno,print employee first name and number
+if no workno,then print mobile no
+if no mobile np,print home no// code is in phone_nos.py
+
+2)Print  firstname,lastname,postalcode of employees whose location is Maharashtra
+//code is in location_Maharashtra.py
+
+3)Print Employees whose name start with A //code name_starting_with_A
+
+4)Print Employees with 2 work nos //two_work_nos.py
+
+5)Print firstname of Employees with no address//firstName_with_no_address
+
+6)Print firstname of employees with state Maharashtra and postal code:421202//code:details.py
+
+7)Search by name //code in search_by_name
+**output.json-json file
