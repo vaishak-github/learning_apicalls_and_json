@@ -1,37 +1,63 @@
 def phone_nos(Data):
-    print("Emp with worknos")
-    for x, y in Data.items():
-        for i in range(0, len(y)):
-            flag_work = False
-            for b in y[i]['phoneNumbers']:
-                if b['type'] == "work":
-                    flag_work = True
-            if flag_work:
-                print("emp_name", y[i]['firstName'], "work no", b['number'])
+    '''print("Emp with worknos")
+    for user in Data['users']:
+        has_mobile_number = False
+        has_work_number = False
+        has_home_number = False
+        for pno in user['phoneNumbers']:
+            if (pno['type'] == "work"):
+                has_work_number = True
 
+            elif pno['type'] == "mobile":
+                has_mobile_number = True
+            else:
+                has_home_number = True
+        if has_work_number:
+            print("Name", user['firstName'], "work number", pno['number'])
+        elif not has_work_number and has_mobile_number:
+            print("Name", user['firstName'], "mobile number", pno['number'])
+        elif not has_mobile_number  and has_home_number:
+            print("Name", user['firstName'], "home number", pno['number'])'''
+    print("Employees with work nos:")
+    for user in Data['users']:
+        has_mobile_number = False
+        has_work_number = False
+        has_home_number = False
+
+        for pno in user['phoneNumbers']:
+            if pno['type']=="work":
+                has_work_number = True
+        if has_work_number:
+            print("Name", user['firstName'], "work number", pno['number'])
     print("")
-    print("Emp with mobile nos")
+    print("Employees with no work no but have mobile no:")
+    for user in Data['users']:
+        has_mobile_number = False
+        has_work_number = False
+        has_home_number = False
 
-    for x, y in Data.items():
 
-        for i in range(0, len(y)):
-            flag_mobile = False
-            for b in y[i]['phoneNumbers']:
-                if b['type'] == "mobile":
-                    flag_mobile = True
-            if flag_mobile:
-                print("emp_name", y[i]['firstName'], "mobile no", b['number'])
-
+        for pno in user['phoneNumbers']:
+            if pno['type'] == "work":
+                has_work_number = True
+            elif pno['type'] == "mobile":
+                has_mobile_number=True
+        if has_mobile_number and not has_work_number:
+            print("Name", user['firstName'], "mobile number", pno['number'])
     print("")
+    print("Employess with no mobileno and work no:")
+    for user in Data['users']:
+        has_mobile_number = False
+        has_work_number = False
+        has_home_number = False
 
-    print("Emp with home nos")
-    for x, y in Data.items():
-        for i in range(0, len(y)):
-            flag_home = False
-            for b in y[i]['phoneNumbers']:
-                if b['type'] == "home":
-                    flag_home = True
-            if flag_home:
-                print("emp_name", y[i]['firstName'], "mobile no", b['number'])
+        for pno in user['phoneNumbers']:
+            if pno['type'] == "work":
+                has_work_number = True
+            elif pno['type'] == "mobile":
+                has_mobile_number=True
+            else:
+                has_home_number = True
 
-    print("")
+        if has_home_number and not has_mobile_number and not has_work_number:
+            print("Name", user['firstName'], "home number", pno['number'])
