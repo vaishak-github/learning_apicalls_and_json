@@ -1,0 +1,305 @@
+{
+   "users": [
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Adhi",
+         "lastName": "Nair",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "302",
+            "city": "Dombivli",
+            "state": "Maharashtra",
+            "postalCode": "421202"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "02512460906"
+            },
+            {
+               "type": "mobile",
+               "number": "9819728865"
+            },
+            {
+               "type": "work",
+               "number": "025124623232"
+            }
+         ]
+      },
+      {
+         "firstName": "Vaishak",
+         "lastName": "Nambiar",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "106",
+            "city": "Thakurwadi",
+            "state": "Maharashtra",
+            "postalCode": "421202"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            },
+            {
+               "type": "mobile",
+               "number": "8097481332"
+            }
+         ]
+      },
+      {
+         "firstName": "Anikesh",
+         "lastName": "Nair",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "102",
+            "city": "Umesh Nagar",
+            "state": "Kerala",
+            "postalCode": "421202"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            },
+            {
+               "type": "mobile",
+               "number": "9653462551"
+            }
+         ]
+      },
+      {
+         "firstName": "Suraj",
+         "lastName": "Nair",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "101",
+            "city": "Kopar",
+            "state": "Maharashtra",
+            "postalCode": "421202"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            },
+            {
+               "type": "mobile",
+               "number": "7383627627"
+            },
+            {
+               "type": "work",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {},
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Anjali",
+         "lastName": "Madhu",
+         "gender": "women",
+         "age": 19,
+         "address": {},
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      },
+      {
+         "firstName": "Rack",
+         "lastName": "Jackon",
+         "gender": "man",
+         "age": 24,
+         "address": {
+            "streetAddress": "126",
+            "city": "San Jone",
+            "state": "CA",
+            "postalCode": "394221"
+         },
+         "phoneNumbers": [
+            {
+               "type": "home",
+               "number": "7383627627"
+            }
+         ]
+      }
+   ]
+}
