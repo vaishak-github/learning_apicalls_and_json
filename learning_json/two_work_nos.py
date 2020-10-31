@@ -5,12 +5,13 @@ def two_work_nos(Data):
         has_work_number = False
 
         for phonenumber in user['phoneNumbers']:
+
             if phonenumber['type'] == 'work':
                 has_work_number = True
             if phonenumber['type'] == 'mobile':
                 has_mobile_number = True
 
         if has_work_number and has_mobile_number:
-            print('Firstname', user['firstName'])
+            print('Firstname', user['firstName'], 'Phone number', phonenumber['number'])
 
     print(" ")

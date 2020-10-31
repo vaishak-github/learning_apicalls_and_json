@@ -1,7 +1,6 @@
 def phone_nos(Data):
     print("Emp with worknos")
     for x, y in Data.items():
-
         for i in range(0, len(y)):
             flag_work = False
             for b in y[i]['phoneNumbers']:
