@@ -13,10 +13,10 @@ def home():
     # returns JSON object as
     # a dictionary
     data = json.load(f)
-    pn.phone_nos(data)
+    #pn.phone_nos(data)
     #lm.location_Maharashtra(data)
     #ns.name_starting_with_A(data)
-    #tw.two_work_nos(data)
+    tw.two_work_nos(data)
     #d.details(data)
     #noadd.firstName_with_no_address(data)
     #s.search_by_name(data)
